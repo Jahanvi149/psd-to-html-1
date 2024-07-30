@@ -1,0 +1,130 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Karla', sans-serif;
+
+}
+.page-main {
+    padding: 200px 0;
+    background: #e6eef5;
+}
+
+.single-price-grid {
+    /* width: 635px; */
+    /* padding: 30px; */
+}
+
+.container {
+    width: 660px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+.single-price-grid .details {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px 10px 0 0;
+}
+
+.single-price-grid .details h1 {
+    text-transform: capitalize;
+    color: #2ab3b1;
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.single-price-grid .details p.B {
+    text-transform: capitalize;
+    color: #9aa7be;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.single-price-grid .details p.A {
+    font-size: 18px;
+    color: #c0df33;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.single-price-grid .detail-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.single-price-grid .detail-wrap .left-detail {
+    background: #2ab3b0;
+    width: 50%;
+    padding: 30px;
+    border-radius: 0 0 0 10px;
+}
+
+.single-price-grid .detail-wrap .left-detail p.a {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.single-price-grid .detail-wrap .left-detail h2 {
+    color: rgb(255 255 255);
+    font-size: 32px;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+.single-price-grid .detail-wrap .left-detail p.c {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.single-price-grid .detail-wrap .left-detail a {
+    text-decoration: none;
+    padding: 15px 20px;
+    background: #c0de33;
+    margin-left: 15px;
+    text-align: center;
+    display: block;
+    color: #fff;
+    text-transform: capitalize;
+    border: 1px solid #c0de33;
+    box-shadow: 0px 5px 20px 2px #8080809e;
+    border-radius: 5px;
+}
+
+.single-price-grid .detail-wrap .right-detail {
+    width: 50%;
+    background: #4bbfbc;
+    padding: 30px;
+    border-radius: 0 0 10px 0;
+}
+
+.single-price-grid .detail-wrap .right-detail ul {
+    list-style: none;
+}
+
+.single-price-grid .detail-wrap .right-detail ul li {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+  .single-price-grid .detail-wrap .right-detail h2 {
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.single-price-grid .detail-wrap .left-detail h2 p.b {
+    font-size: 16px;
+    vertical-align: middle;
+    color: rgb(255 255 255 / 50%);
+    margin-left: 10px;
+    display: inline-block;
+    font-weight: 400;
+}
